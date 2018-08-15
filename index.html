@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/hcalc.css">
+	<script type="text/javascript" src="js/fun.js"></script>
+	<title>Mi Calcu</title>
+</head>
+<body>
+
+
+
+<table>
+	<thead>
+	<th colspan="6"><input type="text" id="Display" readonly>
+	</thead>
+<tr>
+	<td>
+		<input type="button" value="7" onclick="concat(this)">
+		<input type="button"  value="8" onclick="concat(this)">
+		<input type="button" value="9" onclick="concat(this)">
+		<input type="button" value="*"onclick="Operador(this)">
+		<input type="button" value="MS" onclick="MemorySave()">
+		<input type="button" value="MR" onclick="MemoryRead()">
+	</td>
+<tr>
+</tr>
+	<td>
+		<input type="button" value="4"onclick="concat(this)">
+		<input type="button" value="5"onclick="concat(this)">
+		<input type="button"  value="6"onclick="concat(this)">
+		<input type="button"  value="/"onclick="Operador(this)">
+		<input type="button"  value="M+" onclick="MemoryPlus()">
+		<input type="button"  value="C" onclick="ClearAll()">
+	</td>
+</tr>
+<tr>
+	<td>
+		<input type="button"  value="1"onclick="concat(this)">
+		<input type="button"  value="2"onclick="concat(this)">
+		<input type="button"  value="3"onclick="concat(this)">
+		<input type="button"  value="+"onclick="Operador(this)">
+		<input type="button"  value="MC" onclick="MemoryClear()">
+		<input type="button"  value="CE" onclick="Clear()">
+	</td>
+</tr>
+<tr>
+	<td>
+		<input type="button"  value="0"onclick="concat(this)">
+		<input type="button" value="." onclick="Dot()">
+		<input type="button"  value="+/-" onclick="Negative()">
+		<input type="button" value="-"onclick="Operador(this)">
+		<input type="button" class="igual" value="="onclick="Calcular()">
+	</td>
+</tr>
+</table>
+
+
+</body>
+</html>
